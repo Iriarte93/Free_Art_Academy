@@ -1,0 +1,12 @@
+@import './base.css';
+
+body, html {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  background-image: url('@/assets/images/background_fractal.png');
+  background-size: cover; /* Cubre toda la pantalla */
+  background-repeat: no-repeat; /* No repite la imagen */
+  background-position: center center; /* Centra la imagen */
+  background-attachment: fixed; /* Hace que la imagen quede fija */
+}
